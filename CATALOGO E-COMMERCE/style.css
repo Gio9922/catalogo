@@ -1,0 +1,57 @@
+body>div{
+    width: 1500px;
+    height: 1000px;
+    border: 1px solid lightgray;
+    background: lightgray;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+ .blocco{ 
+    width: 908px;
+
+    border: 1px solid white;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    background: white;
+    top: 100px;
+
+}
+.item{
+   width: 300px;
+   position: relative;
+   display: inline-block;
+}
+#margin{
+    margin-top: 20px;
+}
+.item>.scontoverde{
+     border: 1px solid green;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     background-color: green;
+}
+.hearts{
+    color: red;
+    font-size: 45px;
+    position: absolute;
+    bottom: 2px;
+    left: 150px;
+    display: none;
+
+
+}
+.item:hover .hearts{
+      display: block;
+}
+
+.item>.scontorosso{
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+}
+
